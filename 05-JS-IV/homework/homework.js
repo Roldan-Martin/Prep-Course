@@ -6,7 +6,8 @@ function crearGato(nombre, edad) {
   // Agrega un método (funcion) llamado "meow" que devuelva el string "Meow!"
   // Devuelve el objeto
   // Tu código:
-     const gato = {nombre:nombre,
+     const gato = {
+      nombre:nombre,
       edad:edad, 
       meow: function(){
         return "Meow!"
@@ -30,7 +31,7 @@ function invocarMetodo(objeto, metodo) {
   // Invoca ese método
   // Nada necesita ser devuelto ("returned")
   // Tu código:
-  objeto [ metodo] ()
+  objeto[metodo]()
 }
 
 function multiplicarNumeroDesconocidoPorCinco(objetoMisterioso) {
